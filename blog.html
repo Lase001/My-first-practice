@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Website Design</title>
+  <link rel="stylesheet" href="/index.css" type="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"> -->
+  <script src="https://kit.fontawesome.com/97aa65e191.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+  <!-- header section -->
+  <section class="sub-above">
+    <nav>
+      <a href="/index.html"><img src="/Images/logo.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>        
+         <ul> 
+          <li><a href="/index.html">HOME</a></li>
+          <li><a href="/about.html">ABOUT</a></li>
+          <li><a href="/course.html">COURSE</a></li>
+          <li><a href="/blog.html">BLOG</a></li>
+          <li><a href="">CONTACT</a></li>
+         </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificate & Online Programs For 2021</h1>
+  </section>
+
+
+  <!-- blog page content -->
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="/Images/certificate.jpg" alt="">
+        <h2>Our Certificate & Online Programs For 2021</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolores dolorem nemo in laudantium repellat ut, voluptatibus sequi hic aspernatur doloribus nulla velit fugiat asperiores eveniet natus, quas perferendis ducimus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quas ad, quasi odit aspernatur accusantium molestiae rerum corrupti recusandae sequi velit maxime itaque. Libero architecto a nesciunt provident adipisci illo.</p>
+        <br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero cum vel optio quod quae unde incidunt quam delectus qui totam, reiciendis iusto pariatur natus obcaecati illum quibusdam suscipit fuga quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus adipisci animi, provident laborum eligendi eum id cum sed laudantium maiores nostrum, rerum nemo nulla numquam maxime quibusdam cumque. Sed, quidem! </p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, corrupti laborum natus pariatur iste vel, voluptate blanditiis, doloremque magni voluptatum autem praesentium ducimus eveniet maxime dolorem sint quasi qui impedit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam modi sit voluptatibus laborum consequatur repellat quas, sint eveniet minus cum quam consectetur iure debitis rerum et totam earum, quaerat eligendi. </p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos beatae totam obcaecati voluptas repellendus nesciunt nihil magni porro reprehenderit ipsa! Obcaecati vero eaque placeat? Voluptate quam delectus vel sapiente iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto explicabo quae nam tempore aperiam unde nemo quibusdam, magnam, hic culpa alias. Quibusdam voluptate recusandae, corporis excepturi blanditiis illo molestias.</p>
+      </div>
+      <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+<!-- Footer -->
+<footer>
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quisquam eius repellendus? Excepturi, perspiciatis <br> molestiae sequi ipsa quaerat magni sapiente.</p>
+  <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+  </div>
+  <p>Made With <i class="fa-regular fa-heart"></i> by Tolu Idris</p>
+</footer>
+
+<!-- JavaScript  for Toggle Menu-->
+  <script>
+
+    var navLinks =document.getElementById("navLinks")
+
+    function showMenu(){
+      navLinks.style.right ="0";
+    }
+
+    function hideMenu(){
+      navLinks.style.right ="-300px";
+    }
+
+  </script>
+</body>
+</html>
